@@ -1,0 +1,9 @@
+Cluster,Count,AvgAge,TopAgeGroup,TopGender,TopMaritalStatus
+0,129,44.0,<30,F,Married
+1,107,43.6,<30,M,Single
+2,150,43.5,<30,F,Widowed
+3,126,43.9,<30,F,Divorced
+4,132,43.0,<30,M,Married
+5,126,43.0,<30,M,Widowed
+6,122,42.7,<30,M,Divorced
+7,108,42.3,<30,F,Single

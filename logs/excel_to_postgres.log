@@ -1,0 +1,73 @@
+2025-06-09 06:14:56,553 - INFO - Connected to PostgreSQL database.
+2025-06-09 06:14:56,953 - INFO - Loaded Excel file: ../data/raw/Customer_Churn_Data_Large (1).xlsx
+2025-06-09 06:22:51,772 - INFO - Connected to PostgreSQL database.
+2025-06-09 06:22:51,843 - INFO - Loaded Excel file: ../data/raw/Customer_Churn_Data_Large (1).xlsx
+2025-06-09 06:22:52,897 - INFO - All sheets processed in 1.13 seconds.
+2025-06-09 06:25:22,218 - ERROR - Failed to connect to PostgreSQL: No module named 'pg8000'
+2025-06-09 06:38:04,355 - INFO - Starting to process Excel file: ../data/raw/data.xlsx
+2025-06-09 06:38:04,381 - ERROR - Failed to read Excel file: [Errno 2] No such file or directory: '../data/raw/data.xlsx'
+2025-06-09 06:38:44,837 - INFO - Starting to process Excel file: ../data/raw/Customer_Churn_Data_Large (1).xlsx
+2025-06-09 06:38:44,869 - INFO - Found sheets: ['Customer_Demographics', 'Transaction_History', 'Customer_Service', 'Online_Activity', 'Churn_Status']
+2025-06-09 06:38:44,953 - INFO - Processing sheet 'Customer_Demographics' -> table 'customer_demographics' with 1000 rows
+2025-06-09 06:38:44,961 - ERROR - Failed to process sheet 'Customer_Demographics': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:38:45,363 - INFO - Processing sheet 'Transaction_History' -> table 'transaction_history' with 5054 rows
+2025-06-09 06:38:45,367 - ERROR - Failed to process sheet 'Transaction_History': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:38:45,452 - INFO - Processing sheet 'Customer_Service' -> table 'customer_service' with 1002 rows
+2025-06-09 06:38:45,456 - ERROR - Failed to process sheet 'Customer_Service': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:38:45,584 - INFO - Processing sheet 'Online_Activity' -> table 'online_activity' with 1000 rows
+2025-06-09 06:38:45,588 - ERROR - Failed to process sheet 'Online_Activity': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:38:45,625 - INFO - Processing sheet 'Churn_Status' -> table 'churn_status' with 1000 rows
+2025-06-09 06:38:45,631 - ERROR - Failed to process sheet 'Churn_Status': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:38:45,632 - INFO - Finished processing in 0.80 seconds
+2025-06-09 06:44:39,945 - INFO - Starting to process Excel file: ../data/raw/Customer_Churn_Data_Large (1).xlsx
+2025-06-09 06:44:39,972 - INFO - Found sheets: ['Customer_Demographics', 'Transaction_History', 'Customer_Service', 'Online_Activity', 'Churn_Status']
+2025-06-09 06:44:40,029 - INFO - Processing sheet 'Customer_Demographics' -> table 'customer_demographics' with 1000 rows
+2025-06-09 06:44:40,033 - ERROR - Failed to process sheet 'Customer_Demographics': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:44:40,344 - INFO - Processing sheet 'Transaction_History' -> table 'transaction_history' with 5054 rows
+2025-06-09 06:44:40,348 - ERROR - Failed to process sheet 'Transaction_History': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:44:40,425 - INFO - Processing sheet 'Customer_Service' -> table 'customer_service' with 1002 rows
+2025-06-09 06:44:40,428 - ERROR - Failed to process sheet 'Customer_Service': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:44:40,523 - INFO - Processing sheet 'Online_Activity' -> table 'online_activity' with 1000 rows
+2025-06-09 06:44:40,533 - ERROR - Failed to process sheet 'Online_Activity': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:44:40,598 - INFO - Processing sheet 'Churn_Status' -> table 'churn_status' with 1000 rows
+2025-06-09 06:44:40,602 - ERROR - Failed to process sheet 'Churn_Status': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:44:40,603 - INFO - Finished processing in 0.66 seconds
+2025-06-09 06:45:21,525 - INFO - Starting to process Excel file: ../data/raw/Customer_Churn_Data_Large (1).xlsx
+2025-06-09 06:45:21,552 - INFO - Found sheets: ['Customer_Demographics', 'Transaction_History', 'Customer_Service', 'Online_Activity', 'Churn_Status']
+2025-06-09 06:45:21,615 - INFO - Processing sheet 'Customer_Demographics' -> table 'customer_demographics' with 1000 rows
+2025-06-09 06:45:21,618 - ERROR - Failed to process sheet 'Customer_Demographics': 'Engine' object has no attribute 'cursor'
+2025-06-09 06:45:22,087 - INFO - Processing sheet 'Transaction_History' -> table 'transaction_history' with 5054 rows
+2025-06-09 06:45:22,091 - ERROR - Failed to process sheet 'Transaction_History': 'Engine' object has no attribute 'cursor'
+2025-06-09 06:45:22,157 - INFO - Processing sheet 'Customer_Service' -> table 'customer_service' with 1002 rows
+2025-06-09 06:45:22,161 - ERROR - Failed to process sheet 'Customer_Service': 'Engine' object has no attribute 'cursor'
+2025-06-09 06:45:22,221 - INFO - Processing sheet 'Online_Activity' -> table 'online_activity' with 1000 rows
+2025-06-09 06:45:22,225 - ERROR - Failed to process sheet 'Online_Activity': 'Engine' object has no attribute 'cursor'
+2025-06-09 06:45:22,267 - INFO - Processing sheet 'Churn_Status' -> table 'churn_status' with 1000 rows
+2025-06-09 06:45:22,269 - ERROR - Failed to process sheet 'Churn_Status': 'Engine' object has no attribute 'cursor'
+2025-06-09 06:45:22,270 - INFO - Finished processing in 0.75 seconds
+2025-06-09 06:47:57,068 - INFO - Starting to process Excel file: ../data/raw/Customer_Churn_Data_Large (1).xlsx
+2025-06-09 06:47:57,090 - INFO - Found sheets: ['Customer_Demographics', 'Transaction_History', 'Customer_Service', 'Online_Activity', 'Churn_Status']
+2025-06-09 06:47:57,149 - INFO - Processing sheet 'Customer_Demographics' -> table 'customer_demographics' with 1000 rows
+2025-06-09 06:47:57,154 - ERROR - Failed to process sheet 'Customer_Demographics': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:47:57,461 - INFO - Processing sheet 'Transaction_History' -> table 'transaction_history' with 5054 rows
+2025-06-09 06:47:57,465 - ERROR - Failed to process sheet 'Transaction_History': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:47:57,525 - INFO - Processing sheet 'Customer_Service' -> table 'customer_service' with 1002 rows
+2025-06-09 06:47:57,529 - ERROR - Failed to process sheet 'Customer_Service': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:47:57,622 - INFO - Processing sheet 'Online_Activity' -> table 'online_activity' with 1000 rows
+2025-06-09 06:47:57,626 - ERROR - Failed to process sheet 'Online_Activity': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:47:57,652 - INFO - Processing sheet 'Churn_Status' -> table 'churn_status' with 1000 rows
+2025-06-09 06:47:57,656 - ERROR - Failed to process sheet 'Churn_Status': 'Connection' object has no attribute 'cursor'
+2025-06-09 06:47:57,657 - INFO - Finished processing in 0.59 seconds
+2025-06-09 06:49:01,738 - INFO - Starting to process Excel file: ../data/raw/Customer_Churn_Data_Large (1).xlsx
+2025-06-09 06:49:01,760 - INFO - Found sheets: ['Customer_Demographics', 'Transaction_History', 'Customer_Service', 'Online_Activity', 'Churn_Status']
+2025-06-09 06:49:01,810 - INFO - Processing sheet 'Customer_Demographics' -> table 'customer_demographics' with 1000 rows
+2025-06-09 06:49:01,837 - INFO - Successfully saved 'customer_demographics' to SQLite
+2025-06-09 06:49:02,140 - INFO - Processing sheet 'Transaction_History' -> table 'transaction_history' with 5054 rows
+2025-06-09 06:49:02,180 - INFO - Successfully saved 'transaction_history' to SQLite
+2025-06-09 06:49:02,249 - INFO - Processing sheet 'Customer_Service' -> table 'customer_service' with 1002 rows
+2025-06-09 06:49:02,266 - INFO - Successfully saved 'customer_service' to SQLite
+2025-06-09 06:49:02,319 - INFO - Processing sheet 'Online_Activity' -> table 'online_activity' with 1000 rows
+2025-06-09 06:49:02,334 - INFO - Successfully saved 'online_activity' to SQLite
+2025-06-09 06:49:02,362 - INFO - Processing sheet 'Churn_Status' -> table 'churn_status' with 1000 rows
+2025-06-09 06:49:02,375 - INFO - Successfully saved 'churn_status' to SQLite
+2025-06-09 06:49:02,376 - INFO - Finished processing in 0.64 seconds
