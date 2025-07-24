@@ -44,9 +44,9 @@ The dataset contains anonymized customer-level data including:
 
 ## Model Performance
 
-- **Accuracy**: 90%
-- **Precision (Churn)**: 90%
-- **Recall (Churn)**: 73%
+- **Accuracy**: 78%
+- **Precision (Churn)**: 77%
+- **Recall (Churn)**: 80%
 - **F1-Score (Churn)**: 81%
 - **AUC-ROC**: Computed and visualized to assess model separability
 
@@ -86,8 +86,8 @@ These metrics reflect a highly effective model capable of correctly identifying 
 
 - `data/` — Cleaned and raw datasets
 - `notebooks/` — EDA, modeling, segmentation, and evaluation steps
-- `models/` — Saved model artifacts (optional)
-- `scripts/` — Python scripts for preprocessing, training, evaluation
+- `artifacts/` — Saved model artifacts 
+- `src/` — Python scripts for preprocessing, training, evaluation
 - `output/` — Reports, figures, and model outputs
 - `README.md` — This file
 - `requirements.txt` — Python dependencies
